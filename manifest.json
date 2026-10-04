@@ -1,0 +1,25 @@
+{
+  "name": "LevelUp English",
+  "short_name": "LevelUp",
+  "description": "Kuasai 5000 kosakata Inggris Amerika dengan spaced repetition, streak, dan XP.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F1117",
+  "theme_color": "#0F1117",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
