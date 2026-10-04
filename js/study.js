@@ -85,7 +85,9 @@ function draw() {
           <div class="flashcard-face back">
             <span class="level-badge lvl-${card.l}" style="position:absolute;top:16px;left:16px;margin:0;">${card.l}</span>
             <div class="flashcard-word" style="font-size:28px;">${card.w}</div>
+            <div class="flashcard-id">${card.id || ''}</div>
             <div class="flashcard-def">${card.d}</div>
+            ${card.ex ? `<div class="flashcard-ex">💡 ${card.ex}</div>` : ''}
             <button class="nav-item" id="speak" style="position:absolute;bottom:14px;right:16px;padding:6px;">🔊</button>
           </div>
         </div>

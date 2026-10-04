@@ -160,7 +160,8 @@ function drawList(list) {
           <span class="pos">${c.p}</span>
           ${s ? `<span class="pos">· ${s.interval}d · ${s.ease.toFixed(2)}</span>` : ''}
         </div>
-        <div class="d">${c.d}</div>
+        <div class="d">${c.id ? `<span class="d-id">${c.id}</span> · ` : ''}${c.d}</div>
+        ${c.ex ? `<div class="d-ex">💡 ${c.ex}</div>` : ''}
       </div>`;
   }).join('') || '<div class="empty"><div class="icon">🔍</div>Kata tidak ditemukan.<br>Coba kata lain.</div>';
 
